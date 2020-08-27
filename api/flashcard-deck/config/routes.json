@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/flashcard-decks",
+      "handler": "flashcard-deck.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/flashcard-decks/count",
+      "handler": "flashcard-deck.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/flashcard-decks/:id",
+      "handler": "flashcard-deck.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/flashcard-decks",
+      "handler": "flashcard-deck.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/flashcard-decks/:id",
+      "handler": "flashcard-deck.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/flashcard-decks/:id",
+      "handler": "flashcard-deck.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
